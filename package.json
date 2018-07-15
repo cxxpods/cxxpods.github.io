@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --mode=development --open",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "./scripts/deploy.sh"
+    
   },
   "repository": {
     "type": "git",
@@ -32,7 +34,6 @@
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
-    "gh-pages-deploy": "^0.5.0",
     "html-webpack-plugin": "^3.2.0",
     "html-webpack-pug-plugin": "^0.3.0",
     "node-sass": "^4.9.2",
