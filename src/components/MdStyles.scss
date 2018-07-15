@@ -1,0 +1,12 @@
+@import "./Colors.scss";
+
+.root {
+	 h2 {
+		 @extend .red;
+		 font-weight: 700;
+	 }
+	
+	h3 {
+	
+	}
+}
